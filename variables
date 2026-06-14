@@ -1,0 +1,94 @@
+# My introduction
+print("Hello!, my name is Mohammad khan")
+print("Today i am going to learn python")
+print("From basic to advance")
+print("And i will be a master of python in sha allah")
+
+
+# Beginner Variable Practice Questions
+
+#store and Print
+
+#create a variable called name and store your name in it
+name = "Mohammad"
+# create a variable called age and store your age in it 
+age = 20 
+#print the name and age of the person
+print("My name is", name)
+print("I am", (age) , "years old")
+
+
+
+#create three variables and print them in one line
+job = "Trading"
+capital = 35.55
+experienceYears = 5
+print("My job is" , job , ". My capital is" , capital , ", and i have " , experienceYears , "years of experience." ) 
+
+
+
+#create three variables for  your favorite color, food, and hobby
+favorite_color = "black"
+favorite_food = "meat"
+favorite_hobby = "editing videos"
+# print them in one sentence
+print("My favorite color is", favorite_color , ", I love eating", favorite_food, ", My favorite hobby is" ,favorite_hobby,)
+
+
+
+
+# Math with variables  
+
+#store two numbers in variables 
+num1 = 30
+num2 = 50
+# print their sum, difference, product and division
+print("sum/addition is:" , num1 + num2 )
+print("difference/subtraction is:" , num1 - num2 )
+print("product/multiplication is:" , num1 * num2 )
+print("division is:" , num1 / num2 )
+
+
+
+
+
+# Type Conversion
+
+#store your current age and print your future age
+age = 20
+future_age = age + 5
+print("In 5 years, i will be " + str(future_age) + " years old" )
+
+
+
+# Swapping Variables
+
+#swap the values of two variables without using a third variable
+a = 4
+b = 6
+a , b = b , a
+print("a=", a , "b=", b)
+
+
+x = 5
+y = 9
+x , y = y , x
+print("x=" , x ,"y=" , y)
+
+
+
+# String Formating
+
+#using % operator
+name = "mohammad"
+age = 20
+print("My name is %s, and i am %d years old." %(name, age))
+
+#using f-string
+fruit = "apple"
+quantity = 4
+print(f"I bought {quantity} {fruit.capitalize()}'s today")
+
+x , y , z = 4 , 5 , 6
+x , y , z = y , z , x
+print(f"x={x} , y={y} , z={z}")
